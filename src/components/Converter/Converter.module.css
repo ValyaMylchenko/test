@@ -1,0 +1,24 @@
+.converter {
+    display: grid;
+    grid-template-columns: 3.2fr 2fr 2fr;
+
+}
+.fields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.field {
+    display: inherit;
+    flex-direction: row;
+}
+.field input {
+    border-radius: 3px;
+    border: 1px solid grey;
+    margin: 5px 3px;
+}
+.field select{
+    border-radius: 3px;
+    border: 1px solid grey;
+    margin: 5px 3px;
+}
